@@ -1,0 +1,16 @@
+parameter_name,parameter_data,index,fake_label,fake_weights,priority_label,priority_weights
+path_original,data/without_unqualified.csv,0,F1,10,P1,1
+fake_path_write_to,prediction_features_fake.csv,1,F2,2,P2,1
+priority_path_write_to,prediction_features_priority.csv,2,F3,5,P3,1
+path_canadian_cities,reference/reference_canadian_cities.csv,3,F4,10,P4,2
+path_offensive_word,reference/reference_offensive_word.csv,4,F5,10,P5,2
+path_area_code,reference/reference_area_code.csv,5,F6,10,P6,2
+threshold_phone_fake,6,6,F7,2,P7,1
+threshold_phone_spamming,4,7,,,P8,1
+threshold_phone_serious,2,8,,,P9,1
+threshold_city_score_high,80,9,,,P10,1
+threshold_total_budget_high,40000,10,,,P11,1
+threshold_total_budget_low,10000,11,,,P12,2
+threshold_biweekly_budget_high,450,12,,,P13,2
+threshold_biweekly_budget_low,150,13,,,P14,2
+high_level_cartype,"EV, SUV, Truck",14,,,,
